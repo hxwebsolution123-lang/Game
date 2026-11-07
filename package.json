@@ -1,0 +1,20 @@
+{
+  "name": "hx-cards-play",
+  "version": "1.3.0",
+  "private": true,
+  "description": "HX Cards Play multiplayer game with MySQL admin controls and stability fixes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node tests/game-rules.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "mysql2": "^3.14.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
